@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小動物的窩</title>
+	<style type="text/css">
+		#q1{
+			color:red;
+		}
+		#q2{
+			color:green;
+		}
+		#q3{
+			color:purple;
+		}
+		#q4{
+			color:blue;
+		}
+		a{
+			text-decoration:none;
+		}
+	</style>
+
+
+</head>
+<body background="data:image/jpeg;base64,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">
+	<!--40741118-->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wJnBTPUQS5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<ol type="I">
+		<li><a href="#ch01"><i><b><span style="font-size:30px; color:red">關於狗狗</span></b></i></a></li>
+		<li><a href="#ch02"><i><b><span style="font-size:30px; color:pink">狗狗圖鑑</span></b></i></a></li>
+		
+		<li><a href="#ch03"><i><b><span style="font-size:30px; color:orange">關於貓貓</span></b></i></a></li>
+		<li><a href="#ch04"><i><b><span style="font-size:30px; color:indigo">貓貓圖鑑</span></b></i></a></li>
+		
+		<li><a href="#ch05"><i><b><span style="font-size:30px; color:yellow">關於兔兔</span></b></i></a></li>
+		<li><a href="#ch06"><i><b><span style="font-size:30px; color:brown">兔兔圖鑑</span></b></i></a></li>
+	</ol>
+
+	<hr>
+	<hr>
+
+	<h1><div id="q1"><i><b>歡迎來到<u><span style="font-size:50px;">狗狗</span></u>的家</b></i></div></h1>
+
+	<hr>
+
+	<h2 id="ch01"><div id="q3">關於狗狗</div></h2>
+	<p>狗，又叫做犬，係一種常見嘅犬科哺乳動物。狗係狼嘅近親。喺15000至14000年前，狗就已經俾人類馴化做家畜。今時今日，狗種類已經有數百種。身高由十幾釐米嘅芝娃娃到近一米高嘅大丹狗都有，顏色從白色、黑色、紅色、灰色、金黃色、啡色都有。同人一樣，狗係有高度社會嘅集體獵食動物。就係因為咁，狗可以受訓。
+	雖然傳統上狗屬於肉食性動物，但並唔意味狗淨係食肉，狗都可以食蔬菜同五穀。
+	喺好多國家同地方，過去用於放牧，打獵；家下多數作為寵物，睇門口嘅家犬。亦可以做狗醫生、緝毒犬、導盲犬、警犬、太空狗。狗以各方面同人做嘢生活嘅緊密關係，得到「人類最好嘅朋友」之名。
+	狗呢個字本係講幼犬，不過家下狗已經取代咗犬嘅意思。</p>
+	<p><a href="https://zh-yue.wikipedia.org/wiki/%E7%8B%97"target="_blank">文章來源<sub>按此前往</sub></a></p>
+
+	<hr>
+
+	<h2 id="ch02"><div id="q4">狗狗圖鑑</div></h3>
+	<figure>
+		<figcaption><div id="q2">哈士奇</div></figcaption>
+		<img src="http://petonea.com/file//n1828/t.jpg"width="500"height="250">
+	</figure>
+	<blockquote>哈士奇是北方地區雪橇型狗的總稱，他們的快速拉動的風格與其他雪橇犬不同。他們是由速度最快的狗不斷交配的品種。相比之下，阿拉斯加雪橇犬是「最大和最有力的」雪橇犬，常被用於較重的承載。哈士奇被用於雪橇犬拉車比賽。近幾年來，有些業者一直在為冒險旅行者推銷狗拉雪橇的雪地旅遊徒步旅行。哈士奇現今也作為寵物飼養，某些團體正為退休賽車和冒險徒步狗的尋找新家。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">柴犬</div></figcaption>
+		<img src="https://images2.gamme.com.tw/news2/2017/08/04/q5iRoaOek6absKc.jpg"width="500"height="400">
+	</figure>
+	<blockquote>柴犬（日語：柴犬；假名：しばいぬ），學名：Canis lupus familiaris，日本犬種之一。屬於小型犬種。柴犬於1936年（昭和11年）12月16日被指定為日本的天然紀念物[1]（指定了六種日本犬種的其中一個），亦是現存六種日本犬中其中一種小型犬。根據日本犬保存會，日本境內飼養的日本犬種裡，約有八成為柴犬。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">博美犬</div></figcaption>
+		<img src="http://s105.youtaker.com/other/2014/9-29/oth399610859c7625ecc53d466b8306086bde0f9c720010.jpg"width="500"height="350">
+	</figure>
+	<blockquote>博美犬（英語：Pomeranian），別名「松鼠犬」，是狐狸犬家族中最小的犬種，其名出自原產地波美拉尼亞，在波蘭西北部和德國東北部沿海交界地。博美犬因嬌小的體型被分類為玩賞犬類。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">米格魯</div></figcaption>
+		<img src="https://pics.ettoday.net/images/1133/d1133855.jpg"width="500"height="300">
+	</figure>
+	<blockquote>小獵犬（英語：Beagle），又稱獵兔犬、小獵兔犬，也音譯為米格魯、比格犬，是一種小型至中型的犬種。在分類上屬於獵犬，它的外觀近似獵狐犬，但是體形較小。
+	小獵犬最早用於狩獵，現今在世界各地受到許多人的歡迎，被當成家庭寵物。美國漫畫《花生漫畫》中的主角史努比，被認為可能是全世界最出名的虛構小獵犬。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">秋田犬</div></figcaption>
+		<img src="http://www.cup.com.hk/wp-content/uploads/2017/02/akita3.jpg"width="500"height="300">
+	</figure>
+	<blockquote>秋田犬（日語：秋田犬／あきたいぬ／アキタイヌ Akita Inu *），原稱「大館犬」，是日本犬的一種，是國家天然紀念物之六種日本犬中唯一的大型犬種。在日本，送秋田犬的雕像、圖片代表著「祝你早日康復」。在日本是以對飼主忠誠聞名的家庭寵物犬，日本知名的忠犬八公即為秋田犬。
+	</blockquote>
+
+	<hr>
+	<hr>
+
+	<h1><div id="q2"><i><b>歡迎來到<u><span style="font-size:50px;">貓貓</span></u>的家</b></i></div></h1>
+
+	<hr>
+	
+	<h2 id="ch03"><div id="q3">關於貓貓</div></h2>
+	<p>貓（學名：Felis silvestris catus），通常指家貓，為小型貓科動物，是為野貓（又稱斑貓；Felis silvestris）中的亞種[1]，此外也有其他未經過《國際動物命名法規》認可的命名，例如Felis catus。根據遺傳學及考古學分析，人類馴養貓的紀錄可追溯至10,000年前的肥沃月灣地區，古埃及人飼養貓的紀錄可追溯至3,600年前，目的可能為捕鼠及其他齧齒目動物，以防止牠們吃掉榖物。[2]現在，貓成為世界上最為廣泛的寵物之一，飼養率僅次於犬（或稱狗），但同時也是危害十分廣泛的外來種，由於獵捕的習慣，威脅著很多原生鳥類、齧齒類的生存。更直接的風險是因狩獵而感染野外病菌的貓，會引入例如狂犬病等進入人類生活圈，因此對飼主知識技術與社會責任要求也較高，先進國家的公衛系統普遍會針對野貓進行抓捕絕育，管理意義即在於此。長期飼育的貓平均壽命為12年以上（相當於人類64歲），歷史上最長壽的貓則達38歲[3]（等於人類168歲，來自美國德州）。小部分地方文化在過去亦有食用貓肉的習俗，如越南、中國廣州等地，但現今大部分地區因衛生防疫，或是以貓為寵物等因素而禁止食用貓肉。品種獲認證的貓會稱為純種貓，人類以選擇繁殖的方式讓貓繁殖出人類認為趨於「完美」的品種。歷史上也存在因為偶然突變而產生，後給人類保留並加強其特色的品種。</p>
+	<p><a href="https://zh.wikipedia.org/wiki/%E7%8C%AB"target="_blank">文章來源<sub>按此前往</sub></a></p>
+
+	<hr>
+
+	<h2 id="ch04"><div id="q4">貓貓圖鑑</div></h3>
+	<figure>
+		<figcaption><div id="q2">波斯貓</div></figcaption>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Persian_Cat.jpg"width="500"height="400">
+	</figure>
+	<blockquote>波斯貓（Persian cat）是最古老的貓種之一，而其中一種廣為人知的波斯貓為金吉拉（Chinchilla）。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">俄羅斯藍貓</div></figcaption>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Russian_blue.jpg/220px-Russian_blue.jpg"width="500"height="400">
+	</figure>
+	<blockquote>俄羅斯藍貓，為寵物貓的品種之一，亦名阿克漢格藍貓（該名稱源自該貓種的原產地俄羅斯阿爾漢格爾斯克港）。過去這種貓的毛色只有藍色，1970年代培育出了黑白毛色的俄羅斯藍貓。純種的俄羅斯藍貓呈中等深度的灰藍色，在貓的毛色中並不常見，故被視為一種貴族貓。俄羅斯藍貓起名為其身上藍色間雜銀色漸層的毛髮。俄羅斯藍貓廣為世人所知是它的聰穎與好玩，以及在陌生人面前的靦腆害羞的個性。由於俄羅斯藍貓的個性 （或者所謂的「貓格」) 與特殊的毛色使得他們在人群中頗為吃香，並且發展出與喜愛的人們極親密的感情。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">喜馬拉雅貓</div></figcaption>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Himalayan-sharapova.jpg/220px-Himalayan-sharapova.jpg"width="500"height="250">
+	</figure>
+	<blockquote>喜馬拉雅貓(Himalayan)是一種原產於英國和北美的貓。牠出現於1924年，是暹羅貓和波斯貓的雜交。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">混種貓</div></figcaption>
+		<img src="https://img.laonanren.com/upload2/2016-11/16110216484815.jpg"width="500"height="250">
+	</figure>
+	<blockquote>混種貓在台灣稱為米克斯貓，取自英文的MIX音譯。米克斯貓也有花色和品種的分別，但不一定具有遺傳上的關係，如三色貓（玳瑁白色貓，那三色分別為黑、白、紅）、橘子貓（紅色虎斑短毛家貓）、虎斑貓、全白貓、全黑貓、普通玳瑁貓。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">純種貓</div></figcaption>
+		<img src="http://p9.pstatp.com/large/50a60001cafd526068cc"width="500"height="250">
+	</figure>
+	<blockquote>純種貓的祖宗八代都是同一種貓，因為近親交配的問題而常造成先天性缺陷。至於雜種貓則因為其血統並不純粹，但適應力極佳而讓一般社會大眾飼養此種貓。飼養純種貓時，通常會有血統證明書，以證明該貓的血統為純種。約兩千年前，人類開始把一些小貓特別飼養起來，經過揀選再繁殖，便把純種的下一代一步一步培育起來，這個過程是經過雜交和挑選的，所以今日能被人抱在懷裡的貓，狹義上不是「純種」，而是「雜種」。</blockquote>
+
+	<hr>
+	<hr>
+	
+	<h1><div id="q2"><i><b>歡迎來到<u><span style="font-size:50px;">兔兔</span></u>的家</b></i></div></h1>
+
+	<hr>
+
+	<h2 id="ch05"><div id="q3">關於兔兔</div></h2>
+	<p>兔，又稱兔子，在漢語中是哺乳類兔形目兔科（學名：Leporidae）物種的總稱。</p>
+	<p><a href="https://zh.wikipedia.org/wiki/%E5%85%94"target="_blank">文章來源<sub>按此前往</sub></a></p>
+
+	<hr>
+
+	<h2 id="ch06"><div id="q4">兔兔圖鑑</div></h3>
+	<figure>
+		<figcaption><div id="q2">琉球兔</div></figcaption>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Amami_rabbit_Stuffed_specimen.jpg/1280px-Amami_rabbit_Stuffed_specimen.jpg"width="500"height="250">
+	</figure>
+	<blockquote>琉球兔（學名Pentalagus furnessi），又名奄美短耳兔，是一種只分布奄美大島及德之島的原始兔。牠們是亞洲大陸古代兔的遺族，故被稱為活化石。琉球兔的腳很短，身體粗壯，爪大及彎曲，是夜間活動的。牠們的耳朵比其他的兔或野兔明顯的短小。牠們棲息在森林，每胎只會生一隻幼兔。母兔會在地上挖穴供幼兔在日間躲藏。於晚上，母兔會打開穴的入口餵養幼兔，期後就會以植物或塵埃遮蓋穴。牠們日間會在隱蔽的地方睡覺。牠們也會發出叫聲，叫聲有點像鼠兔。琉球兔因獵殺死而瀕危，日本遂於1921年立法保護牠們。不過牠們仍受到伐林、被狗及貓等殺死、並人類干擾等威脅。島上居民用來殺死毒蛇的獴科也大量殺死琉球兔。伐林對牠們有很大的傷害，尤其是牠們是日間睡覺的，很多時會連同伐林一同被殺死。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">南非山兔</div></figcaption>
+		<img src="http://image.iltaw.com/20140922/73/111/CbitlfL0D3ib9uIo.jpg"width="500"height="250">
+	</figure>
+	<blockquote>南非山兔（學名Bunolagus monticularis），又名灌叢穴兔，是最為稀有及瀕危的哺乳動物，數量大約只200隻。牠們只分布在南非開普省高原中部及南部。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">蘇門答臘兔</div></figcaption>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Sumatran_Striped_Rabbit_Recontruction.jpg/220px-Sumatran_Striped_Rabbit_Recontruction.jpg"width="500"height="250">
+	</figure>
+	<blockquote>蘇門答臘兔（學名 : Nesolagus netscheri），又稱蘇門答臘紋兔或蘇門答臘短耳兔，是一種只分布在蘇門答臘島西面巴里桑山脈（Barisan Mountains）森林中的一種兔。蘇門答臘兔所棲息的森林被大量砍伐，生境受到嚴重破壞，故被列為易危物種。蘇門答臘兔一般身長約40公分（1呎4吋），身體呈灰色，帶有棕色條紋，尾及臀部呈紅色，腹部則為白色。居於海拔600至1,400米高的森林中。蘇門答臘兔為夜行性動物，喜居於其他動物的巢穴裡。野生的蘇門答臘兔多以被層植物的莖和葉為食，但馴養的蘇門答臘兔也會吃穀物和熱帶果類。從1972年起僅有3個蘇門答臘兔目擊記錄。最近一次在2007年1月，由裝置於布吉巴里桑西拉坦國家公園（Bukit Barisan Selatan National Park）裡的自動攝影機所拍攝到蘇門答臘兔的影像。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">火山兔</div></figcaption>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Romerolagus_diazi_%28dispale%29_001.jpg/250px-Romerolagus_diazi_%28dispale%29_001.jpg"width="500"height="250">
+	</figure>
+	<blockquote>火山兔（Romerolagus diazi），又名墨西哥兔，是生活在墨西哥山區一種細小的兔。牠們是世界第二最細小的兔，僅次於侏兔。牠們的耳朵很圓，腳短，毛短而厚。牠們以小群生活，成員約有2-5名。牠們會發出很高音的聲音來警告其他兔子。牠們是夜間活動的。牠們重390-600克。於1969年統計，牠們野外只有1000-1200隻。</blockquote>
+	<hr>
+	<figure>
+		<figcaption><div id="q2">侏兔</div></figcaption>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/BRACHYLAGUS_IDAHOENSIS.jpg/200px-BRACHYLAGUS_IDAHOENSIS.jpg"width="500"height="250">
+	</figure>
+	<blockquote>侏兔（學名：Brachylagus idahoensis）是一種生活在北美洲的兔科單型屬動物，也是在美洲兩種會自挖洞穴的兔子之一（另一種是墨西哥的火山兔）。1890年首次在愛達荷州中部被發現。[3]它曾先後被列入兔屬和林兔屬，但事實上與它們都有明顯差別，[4]一般被視為侏兔屬的唯一一種。</blockquote>
+
+	<hr>
+	<hr>
+
+	<p><a href="#top"><i><b><span style="font-size:30px; color:orange">回頂端</span></b></i></p>
+</body>
+</html>
